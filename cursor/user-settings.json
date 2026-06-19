@@ -15,7 +15,7 @@
   "update.mode": "start",
 
   "editor.fontFamily": "Iosevka",
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "editor.lineHeight": 1.7,
   "editor.fontLigatures": true,
   "editor.letterSpacing": 0.3,
