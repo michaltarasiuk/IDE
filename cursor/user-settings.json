@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Black Mono",
+  "workbench.colorTheme": "Horizon",
   "workbench.iconTheme": "pierre-icons",
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "default",
@@ -12,11 +12,10 @@
   "window.autoDetectColorScheme": false,
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0.5,
-  "breadcrumbs.enabled": false,
   "update.mode": "start",
 
-  "editor.fontFamily": "'MonoLisa', 'Dank Mono', 'JetBrains Mono', 'Fira Code', Menlo, monospace",
-  "editor.fontSize": 15,
+  "editor.fontFamily": "Iosevka",
+  "editor.fontSize": 16,
   "editor.lineHeight": 1.7,
   "editor.fontLigatures": true,
   "editor.letterSpacing": 0.3,
@@ -42,8 +41,6 @@
   "editor.guides.bracketPairsHorizontal": false,
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": false,
-
-  "workbench.editor.enablePreview": false,
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "multiple",
 
@@ -57,7 +54,7 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit"
+    "source.organizeImports": "explicit",
   },
 
   "files.eol": "\n",
@@ -74,14 +71,14 @@
     "**/node_modules": true,
     "**/dist": true,
     "**/.svelte-kit": true,
-    "**/target": true
+    "**/target": true,
   },
   "files.watcherExclude": {
     "**/node_modules/**": true,
     "**/.turbo/**": true,
     "**/dist/**": true,
     "**/.svelte-kit/**": true,
-    "**/target/**": true
+    "**/target/**": true,
   },
   "search.exclude": {
     "**/node_modules": true,
@@ -90,7 +87,7 @@
     "**/.svelte-kit": true,
     "**/bun.lock": true,
     "**/*.lockb": true,
-    "**/target": true
+    "**/target": true,
   },
 
   "git.autofetch": true,
@@ -99,12 +96,15 @@
   "git.openRepositoryInParentFolders": "always",
   "git.blame.editorDecoration.enabled": false,
   "git.blame.statusBarItem.enabled": false,
-  "scm.diffDecorations": "gutter",
+  "git.decorations.enabled": false,
+  "scm.diffDecorations": "none",
+  "explorer.decorations.colors": false,
+  "explorer.decorations.badges": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
 
   "terminal.integrated.fontFamily": "'MonoLisa', 'JetBrains Mono', Menlo, monospace",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.lineHeight": 1.4,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
@@ -115,7 +115,7 @@
   "typescript.preferences.importModuleSpecifier": "non-relative",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.suggest.completeFunctionCalls": true,
-  "typescript.inlayHints.parameterNames.enabled": "literals",
+  "typescript.inlayHints.parameterNames.enabled": "none",
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "svelte.enable-ts-plugin": true,
@@ -125,7 +125,7 @@
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["clsx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["class:\\s*[\"'`]([^\"'`]*)\""]
+    ["class:\\s*[\"'`]([^\"'`]*)\""],
   ],
 
   "rust-analyzer.inlayHints.typeHints.enable": false,
@@ -155,6 +155,6 @@
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.semanticHighlighting.enabled": true
-  }
+    "editor.semanticHighlighting.enabled": true,
+  },
 }
