@@ -3,7 +3,6 @@
   "workbench.iconTheme": "pierre-icons",
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "default",
-  "workbench.statusBar.visible": false,
   "workbench.layoutControl.enabled": false,
   "workbench.agentsWindowButton.enabled": false,
   "workbench.tree.indent": 10,
@@ -19,7 +18,7 @@
   "editor.lineHeight": 1.7,
   "editor.fontLigatures": true,
   "editor.letterSpacing": 0.3,
-  "editor.padding.top": 16,
+  "editor.padding.top": 15,
   "editor.cursorBlinking": "smooth",
   "editor.cursorSmoothCaretAnimation": "on",
   "editor.cursorWidth": 3,
@@ -27,7 +26,6 @@
   "editor.minimap.enabled": false,
   "editor.stickyScroll.enabled": false,
   "editor.rulers": [],
-
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
   "editor.detectIndentation": false,
@@ -41,6 +39,7 @@
   "editor.guides.bracketPairsHorizontal": false,
   "editor.guides.indentation": true,
   "editor.guides.highlightActiveIndentation": false,
+
   "workbench.editor.labelFormat": "short",
   "workbench.editor.showTabs": "multiple",
 
@@ -54,13 +53,14 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit",
-    "source.organizeImports": "explicit",
+    "source.organizeImports": "never"
   },
 
   "files.eol": "\n",
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
+
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
   "explorer.compactFolders": false,
@@ -71,14 +71,14 @@
     "**/node_modules": true,
     "**/dist": true,
     "**/.svelte-kit": true,
-    "**/target": true,
+    "**/target": true
   },
   "files.watcherExclude": {
     "**/node_modules/**": true,
     "**/.turbo/**": true,
     "**/dist/**": true,
     "**/.svelte-kit/**": true,
-    "**/target/**": true,
+    "**/target/**": true
   },
   "search.exclude": {
     "**/node_modules": true,
@@ -87,7 +87,7 @@
     "**/.svelte-kit": true,
     "**/bun.lock": true,
     "**/*.lockb": true,
-    "**/target": true,
+    "**/target": true
   },
 
   "git.autofetch": true,
@@ -98,13 +98,14 @@
   "git.blame.statusBarItem.enabled": false,
   "git.decorations.enabled": false,
   "scm.diffDecorations": "none",
+
   "explorer.decorations.colors": false,
   "explorer.decorations.badges": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "diffEditor.renderSideBySide": true,
 
   "terminal.integrated.fontFamily": "'MonoLisa', 'JetBrains Mono', Menlo, monospace",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1.4,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
@@ -119,13 +120,15 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
 
   "svelte.enable-ts-plugin": true,
-  "tailwindCSS.includeLanguages": { "svelte": "html" },
+  "tailwindCSS.includeLanguages": {
+    "svelte": "html"
+  },
   "tailwindCSS.experimental.classRegex": [
     ["tv\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cva\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["cn\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
     ["clsx\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"],
-    ["class:\\s*[\"'`]([^\"'`]*)\""],
+    ["class:\\s*[\"'`]([^\"'`]*)\""]
   ],
 
   "rust-analyzer.inlayHints.typeHints.enable": false,
@@ -134,27 +137,61 @@
   "rust-analyzer.inlayHints.closingBraceHints.enable": false,
 
   "eslint.useFlatConfig": true,
-  "eslint.validate": ["javascript", "typescript", "svelte"],
-  "eslint.workingDirectories": [{ "mode": "auto" }],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "svelte"
+  ],
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+
   "prettier.requireConfig": true,
   "css.lint.unknownAtRules": "ignore",
   "scss.lint.unknownAtRules": "ignore",
 
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[markdown]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[css]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[svelte]": { "editor.defaultFormatter": "svelte.svelte-vscode" },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
   "[rust]": {
     "editor.defaultFormatter": "rust-lang.rust-analyzer",
     "editor.formatOnSave": true,
     "editor.tabSize": 4,
     "editor.insertSpaces": true,
-    "editor.semanticHighlighting.enabled": true,
+    "editor.semanticHighlighting.enabled": true
   },
+
+  "biome.suggestInstallingGlobally": false,
+  "workbench.statusBar.visible": false
 }
