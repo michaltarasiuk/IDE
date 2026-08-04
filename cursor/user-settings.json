@@ -34,7 +34,7 @@
   "editor.smoothScrolling": true,
   "editor.scrollBeyondLastLine": true,
   "editor.linkedEditing": true,
-  "editor.bracketPairColorization.enabled": true,
+  "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairs": false,
   "editor.guides.bracketPairsHorizontal": false,
   "editor.guides.indentation": true,
