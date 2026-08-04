@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Horizon",
+  "workbench.colorTheme": "Pierre Dark",
   "workbench.iconTheme": "pierre-icons",
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "default",
@@ -14,7 +14,7 @@
   "update.mode": "start",
 
   "editor.fontFamily": "Iosevka",
-  "editor.fontSize": 15,
+  "editor.fontSize": 14,
   "editor.lineHeight": 1.7,
   "editor.fontLigatures": true,
   "editor.letterSpacing": 0.3,
@@ -34,7 +34,7 @@
   "editor.smoothScrolling": true,
   "editor.scrollBeyondLastLine": true,
   "editor.linkedEditing": true,
-  "editor.bracketPairColorization.enabled": false,
+  "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": false,
   "editor.guides.bracketPairsHorizontal": false,
   "editor.guides.indentation": true,
@@ -193,5 +193,9 @@
   },
 
   "biome.suggestInstallingGlobally": false,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
+  "git.path": "/Users/michal/.pixi/bin/git",
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.windowsUseConptyDll": true
 }
