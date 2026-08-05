@@ -1,5 +1,4 @@
 {
-  "workbench.colorTheme": "Pierre Dark",
   "workbench.iconTheme": "pierre-icons",
   "workbench.startupEditor": "none",
   "workbench.activityBar.location": "default",
@@ -197,5 +196,6 @@
   "extensions.gallery.serviceUrl": "https://marketplace.visualstudio.com/_apis/public/gallery",
   "git.path": "/Users/michal/.pixi/bin/git",
   "security.workspace.trust.untrustedFiles": "open",
-  "terminal.integrated.windowsUseConptyDll": true
+  "terminal.integrated.windowsUseConptyDll": true,
+  "workbench.colorTheme": "Pierre Dark Soft"
 }
