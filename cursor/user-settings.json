@@ -162,8 +162,8 @@
   "cursor.composer.conversationDensity": "compact",
   "cursor.composer.showEmptyStateTips": false,
 
-  "editor.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
-  "editor.fontSize": 13,
+  "editor.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
+  "editor.fontSize": 14,
   "editor.lineHeight": 1.5,
   "editor.fontLigatures": false,
   "editor.letterSpacing": 0,
@@ -192,9 +192,9 @@
   "editor.smoothScrolling": true,
   "editor.scrollBeyondLastLine": false,
   "editor.linkedEditing": true,
-  "editor.inlayHints.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
-  "editor.inlineSuggest.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
-  "editor.codeLensFontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
+  "editor.inlayHints.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
+  "editor.inlineSuggest.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
+  "editor.codeLensFontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
 
   "editor.bracketPairColorization.enabled": false,
   "editor.guides.bracketPairs": false,
@@ -245,7 +245,7 @@
   },
 
   "terminal.integrated.defaultProfile.osx": "zsh",
-  "terminal.integrated.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
+  "terminal.integrated.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
   "terminal.integrated.fontSize": 12,
   "terminal.integrated.lineHeight": 1.5,
   "terminal.integrated.letterSpacing": 0,
@@ -253,15 +253,15 @@
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.scrollback": 10000,
 
-  "debug.console.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
+  "debug.console.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
   "debug.console.fontSize": 12,
   "debug.console.lineHeight": 18,
 
-  "scm.inputFontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
+  "scm.inputFontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
   "scm.inputFontSize": 12,
 
-  "notebook.markup.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
-  "notebook.output.fontFamily": "'Mona Sans Mono', 'SF Mono', Menlo, Consolas, monospace",
+  "notebook.markup.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
+  "notebook.output.fontFamily": "'Iosevka', 'Iosevka Extended', Menlo, Monaco, monospace",
 
   "git.autofetch": true,
   "git.confirmSync": false,
